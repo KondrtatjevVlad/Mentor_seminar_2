@@ -21,7 +21,7 @@ func main() {
 		fmt.Printf("Результат: %.2f\n", a*b)
 	case "/":
 		if b == 0 {
-			fmt.Println("Ошибка: деление на ноль невозможно!")
+			fmt.Println("не надо так")
 		} else {
 			fmt.Printf("Результат: %.2f\n", a/b)
 		}
